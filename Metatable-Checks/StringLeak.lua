@@ -2,7 +2,7 @@ local str = "test"
 
 while task.wait(1) do
     --[[ 
-        catches 'setrawmetatable' abuse. if an executor sets a string's metatable to getgenv(), strings leak the whole environment.
+        catches 'setrawmetatable' abuse. if an exploiter sets a string's metatable to getgenv(), strings leak the whole environment.
         ref: https://docs.sunc.su/Metatable/setrawmetatable/
     ]]
     if str.print ~= nil then
