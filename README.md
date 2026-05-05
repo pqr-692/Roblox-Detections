@@ -8,7 +8,7 @@ This is just a bunch of random detection scripts I've made or found. They're all
 
 ## Contact
 
-decoy_signal
+decoy_signal via discord
 
 I won't respond to anything outside the repo.
 
