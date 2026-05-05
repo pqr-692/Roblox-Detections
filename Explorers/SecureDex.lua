@@ -1,4 +1,4 @@
--- potassium this method just works on potassium since potassium leaks their pcall stack. you can still detect this with the XpcallPath method
+-- this method most likely just works on potassium since potassium leaks their pcall stack. you can still detect this with the XpcallPath method
 
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
