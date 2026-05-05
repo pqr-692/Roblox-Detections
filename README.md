@@ -1,8 +1,3 @@
-
-# Roblox-Detections
-
-A collection of anti-exploit techniques for Roblox developers.
-
 ## Contact
 
 decoy_signal via Discord
