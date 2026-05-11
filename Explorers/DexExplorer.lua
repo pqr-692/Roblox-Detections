@@ -10,9 +10,9 @@ end
 
 while task.wait(5) do
     --[[ 
-        uses a weak table to see if an object gets garbage collected.
-        if an explorer is open, it'll hold a reference to the object 
-        to show it in the gui, which stops it from being collected.
+    
+        uses a weak table to see if an object gets garbage collected. if an explorer is open, it'll hold a reference to the object 
+
     ]]
     local weak = setmetatable({}, {__mode = "v"})
     local testObj = Instance.new("RemoteEvent")
