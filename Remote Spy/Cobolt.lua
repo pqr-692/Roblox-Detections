@@ -1,7 +1,5 @@
 -- [[ https://github.com/notpoiu/cobalt ]]
 
-loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
-
 if game:GetService("RunService"):IsClient() then
     task.spawn(function()
         while true do
