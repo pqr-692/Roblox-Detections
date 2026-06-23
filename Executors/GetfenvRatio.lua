@@ -1,5 +1,5 @@
 -- Credit: https://devforum.roblox.com/t/awp-injection-detection-hook-detection-infinite-yield-detection-dex-explorer-detection/3560554
--- this is also detected on seliware, potassium, and madium
+-- this detects seliware, potassium, and madium (prob more I haven't tested on)
 
 -- 9382
 -- on-inject detection targetted at the awp executor (targets getfenv timing flaws)
