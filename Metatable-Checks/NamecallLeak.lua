@@ -1,7 +1,7 @@
 local function checkGarbage()
     while task.wait(1) do
         --[[ 
-            game:IsA is a native C function. it shouldn't use lua memory.
+            game:IsA is a native C function. it shouldn't use lua memory. ONLY catches weak hooks
             if it's > 0, someone hooked via __namecall 
         ]]
         local before = gcinfo()
