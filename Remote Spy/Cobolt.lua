@@ -1,4 +1,4 @@
--- [[ https://github.com/notpoiu/cobalt ]]
+-- [[ https://github.com/notpoiu/cobalt ]] PATCHED
 
 if game:GetService("RunService"):IsClient() then
     task.spawn(function()
