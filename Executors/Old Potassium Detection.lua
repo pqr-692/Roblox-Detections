@@ -37,7 +37,6 @@ local function runTest()
     ]]
 
     if c < 250 then
-        warn("potassium suspected")
         game.Players.LocalPlayer:Kick("Potassium detected")
     end
 end
