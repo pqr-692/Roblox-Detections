@@ -1,7 +1,7 @@
 local function checkIndexGarbage()
     while task.wait(1) do
         --[[ 
-            reading properties is handled in C and should be 0.
+            reading properties is handled in C and should be 0. Again, WEAK HOOKS ONLY
             if it's > 0, someone hooked __index w/ a lua function.
         ]]
         local testPart = workspace:FindFirstChildOfClass("Part") or Instance.new("Part")
