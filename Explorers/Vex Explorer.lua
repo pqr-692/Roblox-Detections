@@ -29,7 +29,7 @@ while task.wait(1) do
 
             end
 
-            if math.floor((os.clock() - t) * 1000) > 0 then
+            if math.floor((os.clock() - t) * 1000) > 10 then
 
                 warn("Possible VEX")
 
